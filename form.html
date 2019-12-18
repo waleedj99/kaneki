@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Long+Cang&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+
     <title>MASK</title>
     <style>
     .bg{
+        font-family: "Work Sans", Arial, sans-serif;
         opacity: 0.9;
         background-color:#343a40;background-position: center;
         background-repeat: no-repeat;
@@ -25,7 +31,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
                 <div class="container">
                   <a class="navbar-brand" href="index.html"><p>
-                    MASK <!-- <img src="images/logo.png"  style="width:15%; border-radius: 50%; position: relative" ></img>  -->
+                    <b>MASK</b> <!-- <img src="images/logo.png"  style="width:15%; border-radius: 50%; position: relative" ></img>  -->
                   </p></a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="oi oi-menu"></span> Menu
@@ -58,13 +64,13 @@
                 <div class="form-row">
                     <div class="form-group col">
                     <label for="inputname">Name</label>
-                    <input type="name" class="form-control" id="inputname" placeholder="Name">
+                    <input type="name" required="true" class="form-control" id="inputname" placeholder="Name">
                 </div>    
                 </div>
                 <div class="form-row">
                     <div class="form-group col">
                         <label for="inputroll">Roll Number</label>
-                        <input type="text" class="form-control" id="inputroll" placeholder="Roll Number">
+                        <input required="true" type="text" class="form-control" id="inputroll" placeholder="Roll Number">
                     </div>
                 </div>                
                 <div class="form-row">
@@ -85,7 +91,7 @@
                         <input type="text" required="true" class="form-control" id="inputlink" placeholder="Enter a viewable link">
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
             </form>
         </div>
         </div>
